@@ -5,6 +5,13 @@
   border: 1px solid #F3F3F3;
   border-radius: 40px;
   margin-right: 20px;
+  transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.35);
+    transform: translateY(-5px);
+  }
 
   .button {
     width: 32px;
@@ -12,10 +19,9 @@
     background-color: #FFFFFF;
     border: 1px solid #F2F2F2;
     border-radius: 8px;
-    cursor: pointer;
   }
 
-    h5 {
+  h5 {
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
@@ -32,5 +38,10 @@
     font-weight: 700;
     font-size: 15px;
     line-height: 17px;
+  }
+
+  .favorite {
+    position: absolute;
+    cursor: pointer;
   }
 }
