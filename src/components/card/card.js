@@ -22,7 +22,7 @@ class Card extends Component {
                             <b>{price} zł</b>
                         </div>
                     <button className='button'>
-                            <img width={11} height={11} src="/img/plus.svg" alt="add to card"/>
+                            <img className="buttons" width={11} height={11} src="/img/plus.svg" alt="add to card"/>
                         </button>
                     </div>
                 </div>

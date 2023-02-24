@@ -44,4 +44,13 @@
     position: absolute;
     cursor: pointer;
   }
+
+  .buttons {
+  opacity: 0.4;
+
+  &:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+}
 }
